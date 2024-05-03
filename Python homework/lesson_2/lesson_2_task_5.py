@@ -10,4 +10,5 @@ def month_to_reason(month):
     else:
         return "Неверный номер месяца"
 
+
 print(month_to_reason(9))
