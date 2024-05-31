@@ -12,7 +12,7 @@ driver.get( "http://uitestingplayground.com/textinput")
 waiter = WebDriverWait(driver, 40)
 
 
-input = driver.find_element(By.CSS_SELECTOR, '#newButtonName').send_keys("SkyPro")
+input = driver.find_element(By.CSS_SELECTOR, "#newButtonName").send_keys("SkyPro")
 
 first_button = driver.find_element(By.CSS_SELECTOR, "#updatingButton").click()
 
