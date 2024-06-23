@@ -3,9 +3,7 @@ from second_page import NextPage
 from fixture import *
 
 
-    
-
-def test_assertion(chrome_browser):
+def test_color_of_fields(chrome_browser):
     main_page = MainPage(chrome_browser)
     main_page.find_fields()
     main_page.information_about_me()
@@ -34,6 +32,3 @@ def test_assertion(chrome_browser):
     assert "success" in next_page.get_class_job_position()
     assert "success" in next_page.get_class_company()
     assert "danger" in next_page.get_class_zip_code()
-
-
-    

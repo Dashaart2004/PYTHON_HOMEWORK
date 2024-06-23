@@ -46,9 +46,3 @@ class NextPage:
 
     def get_class_zip_code(self):
         return self.driver.find_element(*self.class_zip_code).get_attribute("class")
-
-
-
-
-
-

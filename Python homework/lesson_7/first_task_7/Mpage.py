@@ -38,7 +38,3 @@ class MainPage:
 
     def button_click(self):
         self.driver.find_element(By.CSS_SELECTOR,'[type="submit"]').click()
-
-
-        
-
